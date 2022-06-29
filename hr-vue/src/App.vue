@@ -2,7 +2,6 @@
   <div>
     <h1>我是Vue渲染的;</h1>
     <p>{{ msg }}</p>
-
     <HelloWorld></HelloWorld>
   </div>
 </template>
