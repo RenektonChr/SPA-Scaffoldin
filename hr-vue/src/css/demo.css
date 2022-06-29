@@ -1,0 +1,26 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #f00;
+  background-image: url("../img/naruto.jpeg");
+  background-size: cover;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.ttf?t=1656488036738') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  font-smoothing: antialiased;
+  font-smoothing: grayscale;
+}
+
+a {
+  background: linear-gradient(to top, black, white);
+  display: flex
+}
+::placeholder {
+  color: #ccc
+}
