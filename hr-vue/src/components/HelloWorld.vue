@@ -1,8 +1,6 @@
 <template>
   <div>
     <h1>Hello World Vue Component</h1>
-    <img :src="naruto" alt="">
-
     <div class="com-box"></div>
   </div>
 </template>
@@ -12,7 +10,7 @@ export default {
   name: "HelloWorld",
   data() {
     return {
-      naruto: require("../img/naruto.jpeg")
+      
     };
   },
 };
@@ -23,6 +21,6 @@ export default {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: url(../img/naruto.jpeg) no-repeat;
+  background: red;
 }
 </style>
