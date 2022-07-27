@@ -79,7 +79,7 @@ const webpackBaseConfig = {
       '@lib': resolve('src/web/lib'),
       '@constants': resolve('src/web/constants'),
     },
-    extensions: ['.js', '.ts', '.tsx', 'jsx', '.css'],
+    extensions: ['.js', '.ts', '.tsx', '.jsx', '.css'],
   },
   plugins: [
     // new NodePolyfillPlugin(),
