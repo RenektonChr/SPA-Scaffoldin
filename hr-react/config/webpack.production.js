@@ -37,7 +37,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'chr-react-generator',
+      title: '京程一灯yd-react-generator',
       filename: 'index.html',
       template: resolve(__dirname, '../src/web/index-prod.html'),
     }),

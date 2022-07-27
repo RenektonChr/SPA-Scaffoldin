@@ -11,10 +11,11 @@
     "lint": "eslint --ext .ts src"
   },
   "keywords": [],
-  "author": "崔浩然",
+  "author": "志佳",
   "license": "ISC",
   "dependencies": {
     "@welldone-software/why-did-you-render": "^7.0.1",
+    "@yideng/demos": "^1.0.4",
     "immer": "^9.0.14",
     "jotai": "^1.6.7",
     "react": "^18.1.0",
